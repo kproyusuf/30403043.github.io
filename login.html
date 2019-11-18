@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/stylelogin.css">
+</head>
+<body oncontextmenu="return false">
+	
+		
+		<nav class="menu">
+			<ul>
+				<li>
+					<a href="index.html">BERANDA</a>
+				</li>
+				<li>
+					<a href="produk.html">PRODUK</a>
+				</li>
+				<li>
+					<a href="usaha penjual.html">USAHA</a>
+				</li>
+				<li>
+					<a href="kontak.html">KONTAK KAMI</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<div class="login">
+				<li>
+					<a href="login.html">LOGIN</a>
+				</li>
+		</div>
+		<div class="dalam">
+				<li>
+					<a href="keranjang.html"><img src="images/belanjaan.png" width="30" height="29"></a>
+				</li>
+		</div>
+
+
+	<div class="blog">
+	<div class="konten">
+	<h1 align="center"><img width="30px" height="30px" src="images/leaf.png">LOGIN</h1>
+	
+	<form name="login" >
+	<table align="center" width="400px" height="100px" border="0" >
+    <tr>
+      <td><label for="Username">Username :</label></td>
+      <td><input type="text" id="usname" required ></td>
+    </tr>
+	<tr>
+      <td><label for="Password">Password :</label></td>
+      <td><input type="Password"  id="pswrd" required></td>
+    </tr>
+	</table>
+	<center> <button type="submit" onclick="sigin()"> login </button></center>
+
+		</form>
+	
+		</div>
+		</div>
+		
+		
+		
+    <script>
+	function sigin() {
+		var UserName = document.getElementById("usname").value;
+		var Password = document.getElementById("pswrd").value;
+		
+		if ((UserName === "user") && (Password == "321user")){
+			alert("Selamat!, Anda Berhasil Login!");
+			window.open('usaha penjual.html');
+			}
+		else{
+			alert("username atau password anda salah");
+			}
+		}
+    </script>
+	
+	    <script type="text/javascript" src="js/jquery.js"></script>
+		<script>
+        $(document).ready(function(){
+			$(login).mouseenter(function(){
+			$(".login").hide();
+			});
+		});
+    </script>
+	
+
+</body>
+</html>

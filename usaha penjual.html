@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/stylepenjual.css">
+</head>
+<body>
+	
+
+		
+		<nav class="menu">
+			<ul>
+				<li>
+					<a href="index.html">BERANDA</a>
+				</li>
+				<li>
+					<a href="produk.html">PRODUK</a>
+				</li>
+				<li>
+					<a href="usaha penjual.html">USAHA</a>
+				</li>
+				<li>
+					<a href="kontak.html">KONTAK KAMI</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<div class="login">
+				<li>
+					<a href="login.html">LOGIN</a>
+				</li>
+		</div>
+		<div class="dalam">
+				<li>
+					<a href="keranjang.html"><img src="images/belanjaan.png" width="30" height="29"></a>
+				</li>
+		</div>
+
+		<div class="blog">
+			<div class="konten" id="konten1">
+				<img src="images/jahe.JPG">
+				<p>Produk olahan jahe. </p>
+				<p>Jahe memiliki banyak hasiat, akan tetapi banyak orang yang tidak menyukai minuman jahe. oleh karena itu kami menjual produk ini agar orang-orang yang tidak menyukai minuman jahe bisa mendapatkan manfaat jahe tersebut.</p>
+				<a href="#" class="sub-konten" >Edit Produk</a>
+				<a href="#" class="sub-konten" id="hapus1">Hapus Produk</a>
+
+			</div>
+
+			<div class="konten" id="konten2">
+				<img src="images/jambu1.JPG">
+				<p>Panduan Umum Budidaya Jambu Air.</p>
+				<p>Jambu air merupakan tanaman yang berasal dari Asia Tenggara. Tanaman ini tergolong dalam suku myrtaceae (jambujambuan)</p>
+				<a href="#" class="sub-konten" >Edit Produk</a>
+				<a href="#" class="sub-konten" id="hapus2">Hapus Produk</a>
+			</div>
+
+			<div class="konten" id="konten3">
+				<img src="images/cabe1.JPG">
+				<p>Cara Menanam Cabe di Polybag.</p>
+				<p>Cara menanam cabe tentu saja berawal dari bibit. Peratama-tama tentu saja anda harus memiliki bibit cabe yang berkualitas. Cukup mudah memilih bibit cabe.</p>
+				<a href="#" class="sub-konten" >Edit Produk</a>
+				<a href="#" class="sub-konten" id="hapus3">Hapus Produk</a>
+			</div>
+
+		</div>
+
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#hapus1").click(function(){
+			$("#konten1").hide();});
+			$("#hapus2").click(function(){
+			$("#konten2").hide();});
+			$("#hapus3").click(function(){
+			$("#konten3").hide();
+			});
+		});
+    </script>
+	
+</body>
+</html>

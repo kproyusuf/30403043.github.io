@@ -1,0 +1,224 @@
+
+
+body {
+	background-image:url(../images/sawah2.jpg), url(../images/sawah1.jpg);
+	background-position: top, bottom;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 100% 200px, cover;
+	font-family: Georgia;
+}
+
+
+
+
+
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:left;
+	padding:0;
+	width: 1150px;
+	margin:0 0 0;
+	background: #fff;
+}
+
+
+
+nav.menu ul li {
+	margin-left: 0;
+	float:left;
+}
+
+
+
+nav.menu ul a {
+	padding:25px;
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	color:#000000;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background:#ADFF2F;
+}
+
+.login {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:right;
+	padding:0;
+	width: 150px;
+	margin:0 0 0;
+
+}
+
+.login li {
+	margin:0;
+	float:left;
+}
+
+
+
+.login a {
+	padding:25px;
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+
+
+.login a:hover {
+	text-decoration: underline;
+	background:#ADFF2F;
+}
+
+.dalam {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:right;
+	padding:0;
+	height: 65px;
+
+}
+
+.dalam li {
+	position:center;
+}
+
+.dalam a {
+	padding:18px;
+	display:block;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+}
+
+.dalam a:hover {
+	text-decoration: underline;
+	background:#ADFF2F;
+}
+
+.sidebar {
+	float:right;
+	transition: all 0.5s ease;
+	width:275px;
+}
+
+
+
+.sidebar img {
+	float: center;
+	min-width: 200px;
+	max-width: 265px;
+}
+
+.sidebar .widget {
+	padding:5px;
+	background-color:hsla(120,70%,80%,0.5);
+
+}
+
+
+.sidebar .widget:hover {
+	transition: all 1s ease;
+	background:#ADFF2F;
+}
+
+.sidebar .list {
+	padding:25px;
+	background-image:url(sawah2.jpg);
+
+}
+
+
+.sidebar .list:hover {
+	transition: all 1s ease;
+	background:#ADFF2F;
+}
+.sidebar .list .h1 {
+	padding:0;
+	text-decoration: none;
+	color:#fff;
+	font-size: 18px;
+	font-weight:800;
+}
+
+.sidebar .widget .h2 {
+	padding:0;
+	text-decoration: none;
+	color:#000000;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+
+.blog {
+	margin: 25px;
+	padding-top: 150px;
+}
+
+.konten {
+	width:700px;
+	height: 475px;
+	padding:25px;
+	margin:25px auto;
+	background-color:hsla(120,60%,70%,0.3);
+	border:1px solid #dedede;
+	font-family: Georgia;
+	color: #fff;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+
+.konten img {
+	min-width: 30px;
+	margin:0 0 ;
+	max-width: 30px;
+	position: relative;
+	height:30px;
+	overflow: hidden;
+
+}
+
+.konten h1 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #fff;
+	font-family: Georgia;
+}
+
+.konten p:last-child {
+	margin: 0;
+}
+
+.konten .sub-konten {
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700; 
+}
+
+.konten .sub-konten:hover {
+	margin-left:10px;
+}
+
+.post-info {
+	float: right;
+	font-size: 12px;
+	margin: -10px 0 15px;
+	text-transform: uppercase;
+}
